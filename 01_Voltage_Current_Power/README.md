@@ -39,7 +39,7 @@ Using a DC voltage source of **12 V** and two resistors (**R1 = 1000 $\Omega$**,
 The circuit was simulated using the operating point directive (`.op`) in LTspice.
 
 ### EXERCISE 1
-![Simulation Results 1](./Simulation_resuts_1.png)
+![Simulation Results 1](./Simulation_results_1.png)
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
@@ -47,7 +47,7 @@ The circuit was simulated using the operating point directive (`.op`) in LTspice
 | Power Dissipation ($P$) | 40.5 mW | 40.499998 mW | 0% |
 
 ### EXERCISE 2
-![Simulation Results 2](./Simulation_resuts_2.png)
+![Simulation Results 2](./Simulation_results_2.png)
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
@@ -55,7 +55,7 @@ The circuit was simulated using the operating point directive (`.op`) in LTspice
 | Power Dissipation ($P$) | 14.4 mW ; 144 mW ; 1440 mW | 14.4 mW ; 144 mW ; 1440 mW | 0% |
 
 ### EXERCISE 3
-![Simulation Results 3](./Simulation_resuts_2.png)
+![Simulation Results 3](./Simulation_results_2.png)
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
