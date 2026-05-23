@@ -23,7 +23,7 @@ Every entry in this repository follows a strict engineering methodology:
 
 The journal is organized into progressive chapters. Each sub-folder is self-contained and contains the `.asc` schematic file, circuit images, and a dedicated README report.
 
-* 01_Voltage_Current_Power/ - Ohm's Law and power dissipation validation. *(Current)*
+* 01_Voltage_Current_Power/ - Ohm's Law and power dissipation validation. *(Completed)*
 * 02_Kirchhoff_Laws/ - Mesh and nodal analysis in complex DC networks. *(Upcoming)*
 * 03_Network_Theorems/ - Practical implementation of Thévenin and Norton equivalents. *(Upcoming)*
 * 04_Reactive_Components/ - Capacitors, inductors, and RC/RL transient behaviors. *(Upcoming)*
