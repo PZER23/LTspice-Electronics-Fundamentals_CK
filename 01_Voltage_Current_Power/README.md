@@ -9,10 +9,13 @@ The purpose of these foundational exercises is to:
 ## 2. Circuit Schematic (LTspice)
 EXERCISE 1
 ![Circuit Schematic 1](./Analysis_of_a_simple_resistive_circuit_SCHEMA.png)
+---
 EXERCISE 2
 ![Circuit Schematic 2](./The_influence_of_the_resistance_on_the_current_SCHEMA.png)
+---
 EXERCISE 3
 ![Circuit Schematic 3](./Voltage_division_in_a_series_circuits_SCHEMA.png)
+---
 
 ## 3. Theoretical Analysis
 
