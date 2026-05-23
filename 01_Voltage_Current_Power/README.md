@@ -39,7 +39,7 @@ Using a DC voltage source of **12 V** and two resistors (**R1 = 1000 $\Omega$**,
 The circuit was simulated using the operating point directive (`.op`) in LTspice.
 
 ### EXERCISE 1
-![Simulation Results 1](./Simulation_results_1.png)
+![Simulation Results 1](./Simulation_resuts_1.png)
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
