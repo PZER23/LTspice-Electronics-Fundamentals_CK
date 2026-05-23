@@ -61,7 +61,7 @@ The circuit was simulated using the operating point directive (`.op`) in LTspice
 | Power Dissipation ($P$) | 14.4 mW ; 144 mW ; 1440 mW | 14.4 mW ; 144 mW ; 1440 mW | 0% |
 
 ### EXERCISE 3
-![Simulation Results 3](./Simulation_results_2.png)
+![Simulation Results 3](./Simulation_results_3.png)
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
