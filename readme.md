@@ -18,7 +18,7 @@ Using a DC voltage source of **9 V** and a resistor of **2000 Omega**, the mathe
 * Power Dissipation ($P$): $P = V \cdot I = 9\text{V} \cdot 0.0045\text{A} = 40.5\text{ mW}$
 ---
 EXERCICE 2
-Using a DC voltage source of **12 V** and many resistor **R1 = 10 000 Omega**, **R2 = 1000 Omega**, **10 Omega**, the mathematical expectations are:
+Using a DC voltage source of **12 V** and many resistor **R1 = 10 000 Omega**, **R2 = 1000 Omega**, **100 Omega**, the mathematical expectations are:
 * Current ($I$): $I = \frac{V}{R}$ . $I_1 = 1.2\text{ mA}$, $I_2 = 12\text{ mA}$, $I_3 = 120\text{ mA}$ .
 * Power Dissipation ($P$): $P = V \cdot I$ .  $P_1 = 14.4\text{ mW}$, $P_2 = 144\text{ mW}$, $P_3 = 1440\text{ mW}$
 ---
@@ -41,7 +41,7 @@ EXERCICE 1
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
 | Loop Current ($I$) | 4.5 mA | 4.5 mA | 0% |
-| Power Dissipation ($P$) | 0.0405 W | 40.499998 mW | 0% |
+| Power Dissipation ($P$) | 40.5 mW | 40.499998 mW | 0% |
 
 EXERCICE 2
 
@@ -50,8 +50,23 @@ EXERCICE 2
 
 | Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
 | :--- | :---: | :---: | :---: |
-| Loop Current ($I$) | 4.5 mA | 4.5 mA | 0% |
-| Power Dissipation ($P$) | 0.0405 W | 40.499998 mW | 0% |
+| Loop Current ($I$) | 1.2 mA ; 12 mA ; 120 mA | 1.2 mA ; 12 mA ; 120 mA | 0% |
+| Power Dissipation ($P$) | 14.4 mW ; 144 mW ; 1440 mW | 14.4 mW ; 144 mW ; 1440 mW | 0% |
+
+EXERCICE 3
+
+![Simulation Results](./Simulation_resuts_2.png)
+
+
+| Electrical Parameter | Theoretical Value | Simulated Value | Discrepancy (%) |
+| :--- | :---: | :---: | :---: |
+| Loop Current ($I$) | 4 mA| 4 mA| 0% |
+| Power Dissipation ($P$) | 16 mW ; 32 mW | 16 mW ; 32 mW | 0% |
+| Voltage ($V$) | 4 V ; 8 V | 4 V ; 8 V | 0% |
+
 
 ## 5. Technical Insights
-The simulation matches the mathematical calculations perfectly (0% error). This confirms the validity of the simulator's internal solver for basic DC operations and establishes the baseline methodology for upcoming complex networks.
+
+-Resistance limits electric current by opposing the movement of electric charges. Under constant voltage, decreasing the resistance increases the current, which in turn increases the power dissipated via Joule heating ; A voltage source always needs a load to limit the current, otherwise a short circuit will occur.(EXERCICE 1 & 2)
+-In a series circuit, the same current flows through all components because there is only a single path for the movement of electric charges ; The voltages across the resistors are different because each resistor causes a voltage drop that is proportional to its resistance. (EXERCICE 3)
+
