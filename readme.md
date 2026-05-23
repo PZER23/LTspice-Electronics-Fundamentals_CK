@@ -1,4 +1,4 @@
-# Exercise 01: Ohm's Law & Power Dissipation
+# Exercise 1,2,3 : Ohm's Law & Power Dissipation
 
 ## 1. Objective
 The purpose of these foundational exercises is to : 
