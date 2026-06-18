@@ -1,10 +1,9 @@
 # LES RESISTORS
 
 ## 1. Identification
-- Nom : LES RESISTORS
-- Symbole schématique :![image du resitor](C:\Users\HP\OneDrive\Bureau\COMPOSANTS_ELECTRONIQUES\images\resistor.png)
-- Type : passif
-- Polarité : Non
+Le resistor est un composant passif non polarisé.
+<img width="323" height="238" alt="resitor" src="https://github.com/user-attachments/assets/dc06499b-0a59-4f97-9c17-fda84f032185" />
+
 
 ---
 
@@ -22,10 +21,10 @@ Il a un impact sur la chute de tension aux bornes d'un ou plusieurs composants d
 
 ## 4. Paramètres importants
 Liste des grandeurs essentielles :
-- Valeur(s) typiques :
-- Limites max :
-- Tension / courant / puissance :
-- Fréquence (si applicable) :
+- La résistance(ohm)
+- La puissance max (W)
+- La tolérance (%) : c'est le niveau de precision du resistor
+- Le type de boitier et le format (A broche ou CMS)
 
 ---
 
