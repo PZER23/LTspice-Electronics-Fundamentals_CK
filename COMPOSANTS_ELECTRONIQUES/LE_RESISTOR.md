@@ -2,7 +2,7 @@
 
 ## 1. Identification
 - Nom : LES RESISTORS
-- Symbole schématique :
+- Symbole schématique :![image du resitor](C:\Users\HP\OneDrive\Bureau\COMPOSANTS_ELECTRONIQUES\images\resistor.png)
 - Type : passif
 - Polarité : Non
 
@@ -14,9 +14,9 @@ C'est un composant qui permet de réduire le passage du courant dans un circuit 
 ---
 
 ## 3. Principe de fonctionnement
-Explication intuitive (pas un cours).
-- Comment il réagit dans un circuit
-- Ce qu’il modifie (courant, tension, signal, énergie, information)
+Il entrave la circulation des électrons dans le circuit.
+Il réagit en transformant une partie du courant qui le traverse en énergie calorifique.
+Il a un impact sur la chute de tension aux bornes d'un ou plusieurs composants du circuit.
 
 ---
 
