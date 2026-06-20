@@ -62,49 +62,15 @@ Ce que le circuit démontre.
 Comment le composant agit dans ce circuit.
 
 ---
-
-## 8. Simulation (si applicable)
-- Outil :
-- Résultat observé :
-- Conclusion :
-
----
-
-## 9. Expérience réelle (breadboard)
+## 8. Expérience réelle (breadboard)
 - Montage :
 - Mesures :
 - Comparaison théorie / réalité :
 
 ---
 
-## 10. Variantes du composant
+## 9. Variantes du composant
 - Version standard
 - Version CMS
 - Version puissance
 - Autres variantes importantes
-
----
-
-## 11. Erreurs courantes
-- Erreur 1
-- Erreur 2
-- Mauvaise utilisation typique
-
----
-
-## 12. Résumé personnel
-Ce que j’ai vraiment compris (simple, concret).
-
----
-
-## 13. Niveau de maîtrise
-☐ Découvert  
-☐ Compris  
-☐ Simulé  
-☐ Utilisé en montage  
-☐ Maîtrisé  
-
----
-
-## 14. Prochaine étape
-Quel circuit ou composant je vais étudier ensuite.
