@@ -16,10 +16,3 @@ C'est un composant qui permet de réduire le passage du courant dans un circuit 
 Il oppose des obstacles physiques au passage des électrons, lesquels entrent en collision continue avec ses atomes, ce qui freine leur déplacement et limite ainsi l'intensité du courant électrique.
 
 Lors de ces chocs les électrons transfèrent lleur énergie cinétique aux atomes, provoquant une agitation atomique qui se traduit par un dégagement de chaleur (l'effet joule).
-
----
-## 9. Variantes du composant
-- Version standard
-- Version CMS
-- Version puissance
-- Autres variantes importantes
