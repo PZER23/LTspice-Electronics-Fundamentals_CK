@@ -8,14 +8,14 @@ Le resistor est un composant passif non polarisé.
 ---
 
 ## 2. Rôle dans un circuit
-C'est un composant qui permet de réduire le passage du courant dans un circuit électrique.
+C'est un composant qui permet de réduire le passage du courant dans un circuit électrique ou qui fait chuter la tension.
 
 ---
 
 ## 3. Principe de fonctionnement
-Il entrave la circulation des électrons dans le circuit.
-Il réagit en transformant une partie du courant qui le traverse en énergie calorifique.
-Il a un impact sur la chute de tension aux bornes d'un ou plusieurs composants du circuit.
+Il oppose des obstacles physiques au passage des électrons, lesquels entrent en collision continue avec ses atomes, ce qui freine leur déplacement et limite ainsi l'intensité du courant électrique.
+
+Lors de ces chocs les électrons transfèrent lleur énergie cinétique aux atomes, provoquant une agitation atomique qui se traduit par un dégagement de chaleur (l'effet joule).
 
 ---
 
