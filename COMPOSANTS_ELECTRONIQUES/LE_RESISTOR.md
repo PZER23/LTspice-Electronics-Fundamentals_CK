@@ -1,7 +1,7 @@
 # LES RESISTORS
 
-## 1. Identification
-Le resistor est un composant passif non polarisé.
+## 1. Définition
+Le resistor est un composant passif non polarisédont la caratéristique physique est la résistance.
 <img width="323" height="238" alt="resitor" src="https://github.com/user-attachments/assets/dc06499b-0a59-4f97-9c17-fda84f032185" />
 
 
