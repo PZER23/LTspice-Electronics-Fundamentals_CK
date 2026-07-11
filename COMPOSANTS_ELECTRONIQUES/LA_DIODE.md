@@ -29,9 +29,37 @@ Dès la fabrication, quelques électrons de la zone N traversent la frontière p
 
 ---
 
-## B) Les variantes du composant (Idéales pour breadboard)
+## B) Les variantes du composant
 
 Voici les variantes incontournables au format "traversant" (Through-Hole), faciles à commander et à utiliser sur plaque d'essai :
+
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+<img width="150" height="150" alt="1N4007-Rectifier-Diode-1000V-1A" src="https://github.com/user-attachments/assets/04cb019a-2fdf-4786-b898-031b7b550b16" />
+    </td>
+    <td align="center" valign="top">
+<img width="150" height="150" alt="1N4148" src="https://github.com/user-attachments/assets/52d34ce5-2f79-47e2-b70b-d1277adc6749" />
+    </td>
+    <td align="center" valign="top">
+<img width="150" height="150" alt="LED" src="https://github.com/user-attachments/assets/884ed201-1995-4f0c-93e2-1e812f713b88" />
+    </td>
+    <td align="center" valign="top">
+<img width="150" height="150" alt="Diode_shotsky" src="https://github.com/user-attachments/assets/4d51f48c-3484-4a8b-8496-2dcb4417a1f6" />
+    </td>
+    <td align="center" valign="top">
+<img width="150" height="150" alt="bzx85c-zener-diode-250x250" src="https://github.com/user-attachments/assets/54ad145d-5715-4542-8228-2156c3cfd17c" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">1N4007</td>
+    <td align="center">1N4148</td>
+    <td align="center">LED</td>
+    <td align="center">1N5819</td>
+    <td align="center">BZX55C</td>
+  </tr>
+</table>
 
 * **1. La diode de redressement standard (ex : 1N4007) :** Le gros bras. Petit cylindre noir avec une bague grise. Elle encaisse de forts courants (jusqu'à **1 A**) et de hautes tensions (jusqu'à **1000 V**). Parfaite pour bloquer une inversion de polarité.
 * **2. La diode de petit signal (ex : 1N4148) :** Le sprinter. Tout petit boîtier en verre orange avec une bague noire. Elle ne supporte pas les gros courants (max **300 mA**) mais elle s'ouvre et se ferme à toute vitesse. Idéale pour les signaux logiques et les hautes fréquences.
