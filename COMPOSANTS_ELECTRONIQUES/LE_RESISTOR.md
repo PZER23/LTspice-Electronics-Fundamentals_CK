@@ -115,4 +115,7 @@ $$R_T = R_0 \cdot (1 + \alpha \cdot \Delta T)$$
   </tr>
 </table>
 
-Dans ce montage le resistor est place en serie avec une DEL (tension seuil 1.8 v)
+Dans ce montage le resistor de 220 ohm est place en serie avec une DEL rouge (tension seuil 1.8 v). L'alimentation est de 5 v .
+D'apres la loi des mailles, le courant qui circule dans ce circuit sera : 
+$$I = \frac{U_{alim} - U_{DEL}}{R}$$ -> $$I = \frac{(5 - 1.8)}{220} = 15 mA$$
+ 
