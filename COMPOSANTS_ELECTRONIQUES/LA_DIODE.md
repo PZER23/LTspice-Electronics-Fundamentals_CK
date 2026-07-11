@@ -71,6 +71,10 @@ Voici les variantes incontournables au format "traversant" (Through-Hole), facil
 
 Au lieu d'être un barrage en béton qui explose si la tension inverse est trop forte, la Zener est fabriquée pour s'ouvrir proprement à une "pression" (tension) très précise fixée par le fabricant (par exemple **5,1 V**). Si la tension inversée atteint **5,1 V**, la soupape s'ouvre et laisse passer le surplus de courant à l'envers pour forcer la tension à rester bloquée à exactement **5,1 V**. On l'utilise pour réguler et stabiliser les tensions.
 
+
+- Un inconvénient à surveiller : Si tu alimentes un montage avec une pile de 5 V et que tu mets cette diode pour protéger ton circuit, tes composants fragiles (comme un microcontrôleur Arduino ou un capteur) ne recevront que 4,3 V. Parfois, cette tension est trop faible pour qu'ils fonctionnent correctement. C'est pour cela qu'on utilise parfois des diodes Schottky, dont la taxe n'est que de 0,2 V.
+
+- Un avantage utile : Comme cette chute de tension de 0,7 V est très stable, elle permet parfois de faire baisser volontairement et précisément une tension trop élevée dans un petit montage sans avoir à faire de calculs complexes.
 ---
 
 ## C) Montages illustrant le rôle de la diode
