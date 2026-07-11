@@ -54,7 +54,7 @@ NB :
 
 $$R_T = R_0 \cdot (1 + \alpha \cdot \Delta T)$$
 
-### L'association des resistors
+### f) L'association des resistors
 - En serie $$R_{eq} = R_1 + R_2 + ...$$
 - En paralelle $$\frac{1}{R_{eq}} = \sum_{i=1}^{n} \frac{1}{R_i}$$
 
