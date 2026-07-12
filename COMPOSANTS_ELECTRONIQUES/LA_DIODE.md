@@ -152,12 +152,54 @@ $U_{entrée}$ = 5 V , $U_{1N4007}$ = 5 V, $U_{LED}$ = 0 V . $U_{resistor}$ = 0 V
   </tr>
 </table>  
 
-### Montage 2 : La chute de tension (La taxe de passage)
-* **Le circuit :** Alimentation **5V** $\rightarrow$ Diode 1N4007 $\rightarrow$ Résistance de **1 k**$\Omega$ $\rightarrow$ GND.
-* **L'expérience :** Mesure la tension aux bornes de la diode avec ton multimètre. Tu liras environ **0,7 V**. Mesure ensuite la tension aux bornes de la résistance : tu trouveras le reste, soit **4,3 V**.
-* **Conclusion :** La diode n'est pas un interrupteur parfait. Pour maintenir son mur écrasé, elle consomme en permanence sa tension de seuil ($V_{alim} - V_{diode} = V_{résistance}$).
+---
 
+### Montage 2 : La chute de tension (La taxe de passage)
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+<img width="300" height="400" alt="WhatsApp Image 2026-07-11 at 17 25 10 (3)" src="https://github.com/user-attachments/assets/6e0213c9-6d1b-49ef-9a67-b729837a714b" />
+    </td>
+        <td align="center" valign="middle">
+        <img width="300" height="400" alt="WhatsApp Image 2026-07-11 at 17 25 11" src="https://github.com/user-attachments/assets/6885e4ec-0173-44ce-afcf-c53f8f43e8d0" />
+</td>
+    <td valign="middle" style="padding-left: 20 px;">
+      <h3>Composants du circuit :</h3>
+      <ul>
+        <li>1 diode 1N4007</li>
+        <li>1 Résistor de 1k $\Omega$</li>
+        <li>1 Alimentation de 5 V</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+* **Le circuit :** Alimentation **5V** $\rightarrow$ Diode 1N4007 $\rightarrow$ Résistance de **1 k**$\Omega$ $\rightarrow$ GND.
+* **L'expérience :** La tension aux bornes de la diode est d'environ **0,7 V**. La tension aux bornes de la resistance sera d'environ **4,3 V**.
+  $$V_{alim} - V_{diode} = V_{résistance}$$
+  
+* **Conclusion :** La diode consomme en permanence sa tension de seuil.
+  
+## Mesure des tensions
+<table>
+  <tr>
+    <td align="center" valign="top">
+<img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 25 10 (1)" src="https://github.com/user-attachments/assets/0c06681d-5202-4394-ab5c-8c4a90c5a062" />
+    </td>
+    <td align="center" valign="top">
+<img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 25 10" src="https://github.com/user-attachments/assets/d6a047ad-dd30-4d84-94f3-b6877cd20e6e" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">tension diode</td>
+    <td align="center">tension resistor</td>
+  </tr>
+</table>
+
+---
+  
 ### Montage 3 : L'aiguillage logique (La porte logique OU)
-* **Le circuit :** Branche deux boutons-poussoirs indépendants au **5V**. La sortie du *Bouton 1* va sur l'anode d'une *Diode 1*. La sortie du *Bouton 2* va sur l'anode d'une *Diode 2*. Relie les deux cathodes ensemble sur une même ligne de la breadboard. De cette ligne commune, place une résistance de **220** $\Omega$ puis une LED vers le GND.
-* **L'expérience :** La LED s'allume si tu appuies sur le Bouton 1 **OU** sur le Bouton 2. 
-* **Conclusion :** Les diodes permettent au courant de descendre vers la LED, mais l'empêchent de remonter à l'envers dans l'autre bouton. Les deux sources d'entrée restent parfaitement isolées l'une de l'autre.
+* **Le circuit :** Connecte deux sources d'alimentation distinctes (une source principale de **5V** et une source secondaire de **3V**). Relie la source 5V sur l'anode de la *Diode 1* et la source 3V sur l'anode de la *Diode 2*. Rassemble les deux cathodes ensemble sur une même ligne centrale de la breadboard (nœud commun). Depuis cette ligne de sortie commune, place un résistor de **220** $\Omega$ suivi d'une LED reliée à la masse commune (GND).
+* **L'expérience :** La LED s'allume automatiquement en sélectionnant la tension la plus élevée (le 5V). Si tu débranches la source principale de 5V, la ligne bascule instantanément sur la source secondaire de 3V et la LED reste allumée sans aucune interruption. 
+* **Conclusion :** Les diodes agissent comme des clapets anti-retour automatiques commandés par la tension. La source la plus forte bloque la diode de la source la plus faible. Les deux sources d'entrée restent parfaitement isolées l'une de l'autre, empêchant tout retour de courant destructeur de l'une vers l'autre.
