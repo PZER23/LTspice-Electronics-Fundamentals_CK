@@ -80,10 +80,77 @@ Au lieu d'être un barrage en béton qui explose si la tension inverse est trop 
 ## C) Montages illustrant le rôle de la diode
 
 ### Montage 1 : La protection du circuit (Le clapet anti-retour)
-* **Le circuit :** Alimentation **5V** $\rightarrow$ Diode 1N4007 (Anode côté 5V, Cathode côté circuit) $\rightarrow$ Résistance de **220** $\Omega$ $\rightarrow$ LED $\rightarrow$ GND.
-* **L'expérience :** 1. Dans ce sens (polarisation directe), le mur s'écrase, le courant circule et la LED s'allume.
-  2. Si tu retournes la diode sur la breadboard (Cathode côté 5V), elle passe en polarisation inverse. Le mur s'élargit, bloque tout et la LED reste éteinte.
-* **Conclusion :** Placer cette diode à l'entrée de ton montage permet de faire barrage au courant si tu branches ta pile à l'envers par erreur, sauvant ainsi tes composants fragiles.
+<table>
+  <tr>
+    <td align="center" valign="middle">
+<img width="300" height="400" alt="WhatsApp Image 2026-07-11 at 23 15 11" src="https://github.com/user-attachments/assets/adbca42e-fe26-4f75-b83f-a52ff9d9edc5" /> 
+    </td>
+    <td valign="middle" style="padding-left: 20px;">
+      <h3>Composants du circuit :</h3>
+      <ul>
+        <li>1 diode 1N4007</li>
+        <li>1 Résistor de 220 $\Omega$</li>
+        <li>1 DEL rouge</li>
+        <li>1 Alimentation de 5 V</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+* **Le circuit :** Alimentation **5V** $\rightarrow$ Diode 1N4007 (Anode côté 5V, Cathode côté circuit) $\rightarrow$ LED $\rightarrow$  Résistance de **220** $\Omega$ $\rightarrow$ GND.
+* **L'expérience :** 1. Dans ce sens (polarisation directe), le courant circule et la LED s'allume. 
+  2. Si on retourne la diode sur la breadboard (Cathode côté 5V), elle passe en polarisation inverse, bloque tout et la LED reste éteinte.
+* **Conclusion :** Placer cette diode à l'entrée du montage permet de faire barrage au courant si la pile est branché à l'envers par erreur, sauvant ainsi tes composants fragiles.
+## Calcul theorqiue en polarisation directe
+$U_{entrée}$ = 5 V , $U_{1N4007}$ = 0,7 V, $U_{LED}$ = 1.8 V . Calculons $U_{resistor}$
+
+on a : $$U_{\text{entrée}} = U_{\text{1N4007}} + U_{\text{LED}} + U_{\text{résistor}}$$
+--> $$U_{\text{résistor}} = U_{\text{entrée}} - U_{\text{1N4007}} - U_{\text{LED}}$$
+--> $$U_{\text{résistor}} = 5\text{ V} - 0,7\text{ V} - 1,8\text{ V}$$
+--> $$U_{\text{résistor}} = 2,5\text{ V}$$
+
+## Mesure des tensions en polarisation directe
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 49" src="https://github.com/user-attachments/assets/9bcefd23-a3d8-4978-a70e-16a4ae98ef53" />
+    </td>
+    <td align="center" valign="top">
+<img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 50" src="https://github.com/user-attachments/assets/219d9b07-a675-41b2-b9e0-6cc13192f1d7" />
+    </td>
+    <td align="center" valign="top">
+      <img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 50 (1)" src="https://github.com/user-attachments/assets/b4a26318-890c-444e-aee6-945c72797ed5" />
+</td>
+  </tr>
+  <tr>
+    <td align="center">tension diode</td>
+    <td align="center">tension LED</td>
+    <td align="center">tension resistor</td>
+  </tr>
+</table>
+
+## Calcul theorqiue en polarisation inverse
+$U_{entrée}$ = 5 V , $U_{1N4007}$ = 5 V, $U_{LED}$ = 0 V . $U_{resistor}$ = 0 V
+
+## Mesure des tensions en polarisation inverse
+<table>
+  <tr>
+    <td align="center" valign="top">
+    <img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 50 (2)" src="https://github.com/user-attachments/assets/43478787-4ed3-4c18-96c2-fb08d4be9be4" />
+</td>
+    <td align="center" valign="top">
+<img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 50 (3)" src="https://github.com/user-attachments/assets/8408b9e4-243c-4f8b-86d0-ed20c262868f" />
+    </td>
+    <td align="center" valign="top">
+<img width="170" height="170" alt="WhatsApp Image 2026-07-11 at 17 10 50 (4)" src="https://github.com/user-attachments/assets/d92d9f48-6735-4f41-bc59-1a4533d38d23" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">tension diode</td>
+    <td align="center">tension LED</td>
+    <td align="center">tension resistor</td>
+  </tr>
+</table>  
 
 ### Montage 2 : La chute de tension (La taxe de passage)
 * **Le circuit :** Alimentation **5V** $\rightarrow$ Diode 1N4007 $\rightarrow$ Résistance de **1 k**$\Omega$ $\rightarrow$ GND.
