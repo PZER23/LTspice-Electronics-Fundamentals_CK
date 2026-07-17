@@ -1,5 +1,16 @@
 # A) C'est quoi un condensateur ?
 
+<table>
+  <tr>
+    <td align="center" valign="top">
+    <img width="450" height="135" alt="cap_all2" src="https://github.com/user-attachments/assets/b3dbecfb-10f2-4ade-a2b9-b5bf2f3d4b82" />
+</td>
+    <td align="center" valign="top">
+<img width="135" height="135" alt="images" src="https://github.com/user-attachments/assets/4d7fdd17-9312-4980-b697-0eda80a2a692" />
+    </td>
+  </tr>
+</table>
+
 ## 1. Définition
 Un condensateur est un composant électronique passif (un dipôle) capable de stocker temporairement de l'énergie électrique sous la forme d'un champ électrique, afin de la restituer plus tard. Physiquement, il est constitué de deux armatures conductrices (généralement des plaques métalliques) placées face à face et séparées par un matériau isolant appelé le **diélectrique** (qui peut être de l'air, de la céramique, du plastique, du mica, etc.).
 
@@ -19,31 +30,31 @@ Lorsqu'on applique une tension continue aux bornes du condensateur :
 
 ## 4. Caractéristiques fondamentales
 
-### a) La capacité ($C$)
-C'est la grandeur physique qui mesure l'aptitude du condensateur à stocker des charges électriques. Plus la capacité est grande, plus le réservoir est volumineux. Elle se mesure en **Farads (F)**. Le Farad étant une unité gigantesque, on utilise principalement ses sous-multiples :
-*   Le microfarad ($1\ \mu\text{F} = 10^{-6}\ \text{F}$)
-*   Le nanofarad ($1\ \text{nF} = 10^{-9}\ \text{F}$)
-*   Le picofarad ($1\ \text{pF} = 10^{-12}\ \text{F}$)
+* **a) La capacité ($C$) :** C'est la grandeur physique qui mesure l'aptitude du condensateur à stocker des charges électriques. Plus la capacité est grande, plus le réservoir est volumineux. Elle se mesure en **Farads ($F$)**. Le Farad étant une unité gigantesque, on utilise principalement ses sous-multiples :
+  * Le microfarad ($\mu\text{F} = 10^{-6}\text{ F}$)
+  * Le nanofarad ($\text{nF} = 10^{-9}\text{ F}$)
+  * Le picofarad ($\text{pF} = 10^{-12}\text{ F}$)
+  * La formule fondamentale associée est :
+    $Q = C \times U$ (où $Q$ est la charge en Coulombs, $C$ la capacité en Farads, et $U$ la tension en Volts)
 
-La formule fondamentale associée est : 
-$$Q = C \times U$$
-*(où $Q$ est la charge en Coulombs, $C$ la capacité en Farads, et $U$ la tension en Volts).*
+* **b) La capacité équivalente ($C_{eq}$) :** Lorsqu'on associe plusieurs condensateurs, le calcul de la capacité totale (équivalente) suit les règles **strictement inverses** de celles des résistors :
+  * **En Parallèle :** Les capacités s'additionnent (on augmente la surface des armatures conductrices, donc le volume du réservoir).
+    $$C_{eq} = C_1 + C_2 + C_3 + \dots$$
+  * **En Série :** On applique la loi des inverses (on augmente l'épaisseur globale de l'isolant diélectrique, ce qui diminue la capacité globale). La capacité équivalente est toujours plus petite que le plus petit condensateur du groupe.
+    $$\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \dots$$
 
-### b) La tension maximale d'utilisation ($V_{\max}$ ou *Rated Voltage*)
-C'est la tension limite absolue que le diélectrique peut encaisser. Si la tension à ses bornes dépasse cette valeur, l'isolant subit un "claquage". Un arc électrique traverse alors le composant, créant un court-circuit interne destructeur (le condensateur peut éclater ou exploser).
+* **c) La tension maximale d'utilisation ($V_{max}$ ou Rated Voltage) :** C'est la tension limite absolue que le diélectrique peut encaisser. Si la tension à ses bornes dépasse cette valeur, l'isolant subit un "claquage". Un arc électrique traverse alors le composant, créant un court-circuit interne destructeur (le condensateur peut éclater ou exploser).
+  * *Astuce de circuit :* Associer deux condensateurs identiques en série permet de doubler la tension maximale qu'ils peuvent supporter ensemble (la tension se divise équitablement entre eux).
 
-### c) La polarité
-Certains condensateurs doivent obligatoirement être branchés dans un sens précis (la patte la plus longue sur le pôle positif `+`, et la bande portant des symboles `-` sur le pôle négatif). Une inversion de polarité sur ces modèles peut provoquer leur destruction rapide. D'autres modèles sont non polarisés et s'insèrent dans n'importe quel sens.
+* **d) La polarité :** Certains condensateurs doivent obligatoirement être branchés dans un sens précis (la patte la plus longue sur le pôle positif $+$, et la bande portant des symboles $-$ sur le pôle négatif). Une inversion de polarité sur ces modèles peut provoquer leur destruction rapide. D'autres modèles (céramiques, films) sont non polarisés et s'insèrent dans n'importe quel sens.
 
-### d) La Résistance Série Équivalente (ESR)
-C'est la résistance interne parasite du condensateur. Une ESR très faible est cruciale dans les circuits où le condensateur doit réagir extrêmement vite (haute fréquence) ou manipuler de forts courants sans surchauffer.
+* **e) La Résistance Série Équivalente (ESR) :** C'est la résistance interne parasite du condensateur. Une ESR très faible est cruciale dans les circuits où le condensateur doit réagir extrêmement vite (haute fréquence) ou manipuler de forts courants sans surchauffer.
 
-### e) La tolérance
-Tout comme pour les résistors, c’est l’écart maximal acceptable en pourcentage (ex: $\pm10\%$ ou $\pm20\%$) entre la capacité réelle du composant sorti d'usine et la valeur théorique imprimée sur son boîtier.
+* **f) La tolérance :** Tout comme pour les résistors, c’est l’écart maximal acceptable en pourcentage (ex: $\pm10\%$ ou $\pm20\%$) entre la capacité réelle du composant sorti d'usine et la valeur théorique imprimée sur son boîtier.
 
 ---
 
-# B) Les variantes du composant (Idéales pour breadboard)
+# B) Les variantes du composant
 Voici les types de condensateurs incontournables, tous au format "traversant" (*Through-Hole*), que tu peux facilement manipuler sur ta plaque d'essai :
 
 ### 1. Le condensateur électrolytique (Aluminium) : *Le réservoir géant*
