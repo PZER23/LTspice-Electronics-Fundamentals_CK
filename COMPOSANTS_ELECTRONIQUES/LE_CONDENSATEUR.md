@@ -75,6 +75,24 @@ Un composant à la frontière entre le condensateur et la batterie. Il affiche d
 Voici trois expériences simples et très visuelles à réaliser pour mettre en valeur les fonctions reines du condensateur sur une breadboard :
 
 ## Montage 1 : La Temporisation RC (L'effet micro-batterie)
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img width="300" height="300" alt="Montage potentiomètre" src="https://github.com/user-attachments/assets/df653e45-675a-404c-921a-f32f1dcc7716" />
+    </td>
+    <td valign="middle" style="padding-left: 20px;">
+      <h3>Composants du circuit :</h3>
+      <ul>
+        <li>1 Résistor de 220 $\Omega$</li>
+        <li>1 condensateur electrolytique de  $100\ \mu\text{F}$ </li>
+        <li>1 DEL rouge</li>
+        <li>1 resistor de 10 k $\Omega$</li>
+        <li>1 Alimentation de 5 V</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 Ce montage met en lumière la vitesse de charge et de décharge contrôlée du composant à travers une résistance.
 
 *   **Le circuit :** Alimentation $5\text{V} \rightarrow$ Bouton-poussoir $\rightarrow$ Résistance de $10\ \text{k}\Omega \rightarrow$ Condensateur électrolytique de $100\ \mu\text{F}$ (borne `+` connectée à la résistance, borne `-` reliée au GND). Connecte également en parallèle aux bornes de ce condensateur une résistance de $220\ \Omega$ en série avec une LED classique branchée vers le GND.
