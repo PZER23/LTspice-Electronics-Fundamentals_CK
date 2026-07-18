@@ -79,7 +79,7 @@ Voici trois expériences simples et très visuelles à réaliser pour mettre en 
 <table>
   <tr>
     <td align="center" valign="middle">
-      <img width="300" height="300" alt="Montage potentiomètre" src="https://github.com/user-attachments/assets/df653e45-675a-404c-921a-f32f1dcc7716" />  
+    <img width="300" height="300" alt="WhatsApp Image 2026-07-18 at 17 20 03" src="https://github.com/user-attachments/assets/3a0a67bd-6469-4421-bb20-72e5a18258c2" />
       <video src="https://github.com/user-attachments/assets/3d7367b4-87fc-4b87-a97e-b6dc049f9aed" width="300" height="300" controls></video>    
     </td>
     <td valign="middle" style="padding-left: 20px;">
