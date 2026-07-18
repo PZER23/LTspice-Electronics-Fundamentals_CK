@@ -94,9 +94,13 @@ Voici trois expériences simples et très visuelles à réaliser pour mettre en 
     </td>
   </tr>
 </table>
-Ce montage met en lumière la vitesse de charge et de décharge contrôlée du composant à travers une résistance.
 
-*   **Le circuit :** Alimentation $5\text{V} \rightarrow$ Bouton-poussoir $\rightarrow$ Résistance de $10\ \text{k}\Omega \rightarrow$ Condensateur électrolytique de $100\ \mu\text{F}$ (borne `+` connectée à la résistance, borne `-` reliée au GND). Connecte également en parallèle aux bornes de ce condensateur une résistance de $220\ \Omega$ en série avec une LED classique branchée vers le GND.
+*   **Schéma LTSPICE :**
+  
+    <img width="500" height="300" alt="MONTAGE" src="https://github.com/user-attachments/assets/7e1cf358-862e-4a5e-a5d0-3574b74848cc" />
+
+
+*   **Le circuit :** Ce montage met en lumière la vitesse de charge et de décharge contrôlée du composant à travers une résistance. Alimentation $5\text{V} \rightarrow$ Bouton-poussoir $\rightarrow$ Résistance de $10\ \text{k}\Omega \rightarrow$ Condensateur électrolytique de $100\ \mu\text{F}$ (borne `+` connectée à la résistance, borne `-` reliée au GND). Connecte également en parallèle aux bornes de ce condensateur une résistance de $220\ \Omega$ en série avec une LED classique branchée vers le GND.
 *   **L'expérience :** 
     1. Maintiens le bouton enfoncé : la LED s'allume immédiatement tandis que le condensateur accumule l'énergie.
     2. Relâche le bouton : au lieu de s'éteindre instantanément, la LED reste allumée puis faiblit très progressivement pendant quelques secondes avant de s'éteindre totalement.
