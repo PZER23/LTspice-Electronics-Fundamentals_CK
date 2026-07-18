@@ -79,7 +79,8 @@ Voici trois expériences simples et très visuelles à réaliser pour mettre en 
 <table>
   <tr>
     <td align="center" valign="middle">
-      <img width="300" height="300" alt="Montage potentiomètre" src="https://github.com/user-attachments/assets/df653e45-675a-404c-921a-f32f1dcc7716" />
+      <img width="300" height="300" alt="Montage potentiomètre" src="https://github.com/user-attachments/assets/df653e45-675a-404c-921a-f32f1dcc7716" />  
+      <video src="https://github.com/user-attachments/assets/3d7367b4-87fc-4b87-a97e-b6dc049f9aed" width="300" height="300" controls></video>    
     </td>
     <td valign="middle" style="padding-left: 20px;">
       <h3>Composants du circuit :</h3>
@@ -99,7 +100,25 @@ Ce montage met en lumière la vitesse de charge et de décharge contrôlée du c
 *   **L'expérience :** 
     1. Maintiens le bouton enfoncé : la LED s'allume immédiatement tandis que le condensateur accumule l'énergie.
     2. Relâche le bouton : au lieu de s'éteindre instantanément, la LED reste allumée puis faiblit très progressivement pendant quelques secondes avant de s'éteindre totalement.
-
+*   **Mesure au multimetre :**
+  <table>
+  <tr>
+    <td align="center" valign="top">
+      <img width="250" alt="Potentiomètre à 10k" src="https://github.com/user-attachments/assets/e040678f-62f1-4c50-a175-273158acd81b" />
+    </td>
+    <td align="center" valign="top">
+      <img width="250" alt="Tension DEL à 10k" src="https://github.com/user-attachments/assets/e485d7fb-ec07-4bf6-86bd-66a279d94bdf" />
+    </td>
+    <td align="center" valign="top">
+      <img width="250" alt="Tension résistor à 10k" src="https://github.com/user-attachments/assets/9b090064-4f0c-4e6f-abd4-9be7dc7d1be3" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Potentiomètre réglé à 10 k $\Omega$</td>
+    <td align="center">Tension DEL</td>
+    <td align="center">Tension résistor</td>
+  </tr>
+</table>    
 > **Conclusion (pour GitHub) :** Lorsque le bouton est relâché, le condensateur prend le relais de l'alimentation et fournit son énergie stockée à la LED en se vidant lentement à travers la résistance de $10\ \text{k}\Omega$. C'est le principe fondamental des minuteries ou des circuits de délai.
 
 ## Montage 2 : Le Filtrage d'Alimentation (L'amortisseur de tension)
