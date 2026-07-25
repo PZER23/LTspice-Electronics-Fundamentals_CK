@@ -16,24 +16,6 @@ Pour chaque défi technique ou problème de circuit abordé, j'applique rigoureu
 4. **Simulation LTspice & Comparaison** : Modélisation logicielle et confrontation directe des mesures simulées avec les résultats théoriques.
 5. **Implémentation Physique** : Montage pratique sur plaque à essai (breadboard) pour confronter la théorie et la simulation à la réalité du matériel.
 6. **Constat Technique** : Analyse fine des écarts, tolérances des composants, comportement réel du circuit et conclusions techniques.
-
----
-
-## Structure du Portfolio
-
-Le portfolio est organisé par projets autonomes axés sur la résolution de problèmes spécifiques. Chaque dossier contient l'ensemble des livrables techniques associés.
-
-Exemples :
-
-* **Project_01_Loaded_Voltage_Divider/** : Analyse de l'impact de la charge sur un diviseur de tension, calcul du compromis d'impédance et stabilisation de la tension de sortie.
-* **Project_02_R2R_Ladder_DAC/** : Conception et calcul des tolérances d'un convertisseur numérique-analogique passif en réseau de résistances.
-* **Project_03_BJT_Switch_Saturation/** : Dimensionnement de la base d'un transistor bipolaire pour la commande de puissance en commutation.
-
-Chaque dossier de projet adopte l'architecture standardisée suivante :
-* `/simulation` : Fichiers de simulation `.asc` (LTspice) et captures d'écran des formes d'onde.
-* `/hardware` : Schémas électroniques et photographies du montage réel sur plaque à essai (breadboard).
-* `README.md` : Rapport technique complet contenant l'énoncé, les calculs, les réponses aux questions et les constats.
-
 ---
 
 ## Outils Utilisés
