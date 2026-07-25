@@ -8,7 +8,7 @@ Une diode est un composant électronique semi-conducteur (un dipôle passif non 
 ### 2. Rôle dans un circuit
 Le rôle principal de la diode est d'agir comme une **valve ou un clapet anti-retour** pour le courant électrique. Elle autorise le passage du courant dans une seule direction (le sens passant) et le bloque complètement dans la direction opposée (le sens bloqué).
 
-### 3. Principe de fonctionnement (La Jonction PN)
+### 3. Principe de fonctionnement 
 
 * **En polarisation directe (Sens passant) :** Tu branches le "+" de l'alimentation sur la zone P (Anode) et le "-" sur la zone N (Cathode). La force de la pile pousse les charges vers le centre, ce qui **écrase le mur**. Dès que la tension dépasse la taxe de passage minimale (tension de seuil de **0,7 V**), le mur s'effondre et les électrons circulent librement : le courant passe.
 * **En polarisation inverse (Sens bloqué) :** Tu branches le "+" sur la zone N (Cathode) et le "-" sur la zone P (Anode). La pile aspiration les charges vers l'extérieur du composant, loin de la frontière. Résultat : **le mur s'élargit** et devient de plus en plus épais. Le courant est totalement bloqué.
