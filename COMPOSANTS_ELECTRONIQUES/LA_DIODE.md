@@ -9,12 +9,6 @@ Une diode est un composant électronique semi-conducteur (un dipôle passif non 
 Le rôle principal de la diode est d'agir comme une **valve ou un clapet anti-retour** pour le courant électrique. Elle autorise le passage du courant dans une seule direction (le sens passant) et le bloque complètement dans la direction opposée (le sens bloqué).
 
 ### 3. Principe de fonctionnement (La Jonction PN)
-À l'échelle microscopique, la diode est formée par la rencontre de deux pièces de silicium collées l'une à l'autre :
-* **La zone N (Cathode) :** Elle est remplie d'un excès de petites billes négatives (les **électrons**).
-* **La zone P (Anode) :** Elle est remplie d'un excès de places libres (les **trous**).
-
-**La frontière (La zone de déplétion) :**
-Dès la fabrication, quelques électrons de la zone N traversent la frontière pour boucher les trous les plus proches de la zone P. Cela crée naturellement un "mur" neutre et isolant juste au niveau de la frontière. Ce mur bloque tout passage spontané : c'est la **zone de déplétion**.
 
 * **En polarisation directe (Sens passant) :** Tu branches le "+" de l'alimentation sur la zone P (Anode) et le "-" sur la zone N (Cathode). La force de la pile pousse les charges vers le centre, ce qui **écrase le mur**. Dès que la tension dépasse la taxe de passage minimale (tension de seuil de **0,7 V**), le mur s'effondre et les électrons circulent librement : le courant passe.
 * **En polarisation inverse (Sens bloqué) :** Tu branches le "+" sur la zone N (Cathode) et le "-" sur la zone P (Anode). La pile aspiration les charges vers l'extérieur du composant, loin de la frontière. Résultat : **le mur s'élargit** et devient de plus en plus épais. Le courant est totalement bloqué.
